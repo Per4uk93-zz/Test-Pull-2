@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread",
+    "transform-object-assign",
+    "transform-array-find",
+    "transform-runtime",
+    "babel-polyfill",
+    [
+      "transform-es2015-for-of",
+      {
+        "loose": true
+      }
+    ]
+  ]
+}
